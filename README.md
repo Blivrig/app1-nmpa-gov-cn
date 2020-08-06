@@ -50,3 +50,43 @@ ps：都是base64编码以后的，请求详情的参数base64以后作为参数
 |字段名称       |字段说明         |类型            |必填            |备注     |
 | -------------|:--------------:|:--------------:|:--------------:| ------:|
 |data|url，构造请求时直接使用此链接|string|Y|详情链接比列表链接多一个c1SoYK0a|
+
+
+
+
+## 接口名称
+
+### 1) 请求地址
+
+>http://rs.qyplc.com:1788/nmpa/getCookie
+
+### 2) 调用方式：HTTP get
+
+### 3) 接口描述：
+
+* 此接口获取cookie
+
+### 4) 请求参数:
+
+#### GET参数:
+
+```
+无
+
+```
+### 5) 请求返回结果:
+
+```
+{
+    "data":"enable_neCYtZEjo8Gm=true;neCYtZEjo8GmS=5nag.ywYnS1G7tvtdYOCrA1esU3GBo5PwwaQzprl0f.4A9oN.1pUKlq9OG5P.iLsSiMZCRTPZ79_6UifO5T534A;neCYtZEjo8GmT=5Unz6xTZ.w09qqqmuaCC8cAWWuXrGtZf7SRQnOY4LxdFQW_Zd43CVWTucdQ9bqsLQM1Te.HwiURCdCGGIZslGPEdhjhMX2Dn4IDD5Dj8xQGeuLX7w7dl6uGl5PbDcrrn7sehWts1bEI3hwSbYGioLRw83M82V1QnmtI0C8p8nTSIXhQu9wXk_j.xzmnPx2O9zYnCv3wjZkpS8_R79pxVKK3ny4mrw_5nbShteo9BHm2QIfTe.cPS9wHbeysW3eiXW8bZPECF4jVDXwEkhP.ECIbfuSVLd2sO2ndPSVWCk6z4HeMVPpui_tPVHR7dBsz.EA;",
+    "ok":true,
+    "status":0,
+    "message":"公众号：编码天空，付费1999带你通杀！"
+}
+```
+
+
+### 6) 请求返回结果参数说明:
+|字段名称       |字段说明         |类型            |必填            |备注     |
+| -------------|:--------------:|:--------------:|:--------------:| ------:|
+|data|cookie，构造请求时直接使用此cookie|string|Y||
