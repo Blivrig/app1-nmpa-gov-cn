@@ -1,5 +1,5 @@
 # app1-nmpa-gov-cn
-## 药监局Cookie和HifJzoc9生成接口(2020.08.05测试可用)
+## 药监局Cookie和6SQk6G2z及c1SoYK0a生成接口(2020.08.05测试可用)
 ## 概述
 > 反爬厂商：瑞数
 ## 项目说明
